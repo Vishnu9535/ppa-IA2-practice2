@@ -1,6 +1,10 @@
 #include<stdio.h>
-void input_array(int n,int a[n]){
+int input_array_size(){
+  int n;
   scanf("%d",&n);
+  return n;
+}
+void input_array(int n,int a[n]){
   for(int i=0;i<n;i++){
     scanf("%d",&a[i]);
   }
@@ -21,8 +25,9 @@ void out_put(int sum){
   
 }
 int main(){
-  int n,a[];
-  input_array(n,a[n]);
-  int s=sum_composite_numbers(n,a[n]);
+  int n=input_array_size();
+  int a[n];
+  input_array(n,a);
+  int s=sum_composite_numbers(n,a);
   out_put(s);
 }
