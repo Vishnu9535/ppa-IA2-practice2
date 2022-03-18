@@ -6,7 +6,7 @@ int input_number(){
   return n;
 }
 int is_composite(int n){
-int composite=0,x;
+int composite=0;
   for(int i=2;i<n;i++)
     {
       if(n%i==0){
