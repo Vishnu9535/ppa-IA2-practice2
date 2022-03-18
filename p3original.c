@@ -9,8 +9,7 @@ int is_composite(int n){
 int composite=0,x;
   for(int i=2;i<n;i++)
     {
-      x=n%i;
-      if(x==0){
+      if(n%i==0){
         composite=1;
       }   
   }
