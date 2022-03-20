@@ -1,1 +1,18 @@
-
+Breakpoint 1, main () at p5original.c:18
+18  int main(){
+(gdb) n
+20    input(&a,&b);
+(gdb) n
+enter two numbers12
+16
+21    gcd(a,b,&hcf);
+(gdb) n
+22    output(a,b,hcf);
+(gdb) p hcf
+$1 = 4
+(gdb) p i
+No symbol "i" in current context.
+(gdb) n
+23    return 0;
+(gdb) n
+24  }

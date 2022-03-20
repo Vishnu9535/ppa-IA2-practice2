@@ -1,12 +1,14 @@
 #include<stdio.h>
-#include<string.h>
 void input_string(char a[]){
-  printf("input a string");
-  fgets(a,20,stdin);
+  printf("enter the word");
+  fgets(a,20,stdin); 
 }
-int str_reverse(char a[]){
-  char reversea[20];
-  
-  
+void str_reverse(char a[]){
+  char reverse[5];
+  for(char i;i>=a[20];i--){
+    printf("%c",i);
+  }
+}
+int main(){
   
 }
