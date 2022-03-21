@@ -35,8 +35,7 @@ void input_n_triangles(int n, Triangle t[n])
 Triangle find_smallest_triangle(int n, Triangle t[n])
   {
     for(int i=0;i<n;i++){
-    
-        
-      
+      if(t[i]->area>)
+  
     }
   }
