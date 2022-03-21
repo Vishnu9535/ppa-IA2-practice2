@@ -8,7 +8,8 @@ void str_reverse(char a[],  char reverse[])
 {
   int len;
   len=strlen(a);
-   int x=len-1;
+  int x=len-1;
+  
   for(int i=0;i<len;i++) 
   {
     reverse[i]=a[x]; 
@@ -25,5 +26,4 @@ int main(){
   str_reverse(a,reverse);
   output(reverse);
   return 0;
-  
 }
