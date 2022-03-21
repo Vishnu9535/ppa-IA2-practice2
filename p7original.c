@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 typedef struct triangle{
 float base,area,altitude;
 }Triangle;
