@@ -55,11 +55,14 @@ int main()
   Triangle z;
   n=input_n();
   z=input_triangle();
-  Triangle t[n];
+  Triangle t;
   input_n_triangles(n,t);
   find_area(&t);
   find_areas_n(n,t);
-  find_smallest_triangle(n,t);
+  Triangle smallest;
+  smallest=find_smallest_triangle(n,t);
+  
+  output(n,t,smallest)
   
   return 0;  
   
